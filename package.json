@@ -9,7 +9,7 @@
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "author": "swami",
-  "license": "DTU",
+  "license": "MIT",
   "devDependencies": {
     "prettier": "^1.18.2"
   }
