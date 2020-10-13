@@ -1,1 +1,1 @@
-# swamiGo4Life
+# swamigo4life
