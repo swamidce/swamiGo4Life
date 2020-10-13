@@ -1,0 +1,10 @@
+[
+    {
+        "CustomerId": "1",
+        "Date": "15/10/2020",
+        "Discount": "20%",
+        "PaymentMode": "Card",
+        "ProductName": "Fruits",
+        "Quantity": "1000.0"
+    }
+]
