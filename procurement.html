@@ -1,0 +1,25 @@
+<textarea id="sql" cols="1000" rows="1000">
+  /**
+ * procurement
+ */
+SET FOREIGN_KEY_CHECKS=0;
+ 
+-- ----------------------------
+-- Table structure for `procuremen`
+-- ----------------------------
+DROP TABLE IF EXISTS `procurement`;
+CREATE TABLE IF NOT EXISTS `procurement` (
+	`CustomerId`	INTEGER NOT NULL,
+	`Date`	NUMERIC NOT NULL,
+	`Quantity`	REAL NOT NULL,
+	`ProductName`	TEXT NOT NULL,
+	`PaymentMode`	TEXT NOT NULL,
+	`Discount`	NUMERIC NOT NULL,
+	PRIMARY KEY(`CustomerId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+ 
+-- ----------------------------
+-- Records of procurement
+-- ----------------------------
+INSERT INTO `procurement` (Identifying the needs of Goods and Services,Finding Suppliers,Requesting Proposals,Negotiating with Suppliers,Agreeing terms with Suppliers,Arranging and Receiving products and services,Performing Quality Assurance,Analysing Results and Margins) VALUES ('NA','NA','1','NA','NA','NA','NA','NA');
+</textarea>
