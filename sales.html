@@ -1,0 +1,25 @@
+<textarea id="sql" cols="1000" rows="1000">
+  /**
+ * sales 
+ */
+SET FOREIGN_KEY_CHECKS=0;
+ 
+-- ----------------------------
+-- Table structure for `sales`
+-- ----------------------------
+DROP TABLE IF EXISTS `sales`;
+CREATE TABLE IF NOT EXISTS `sales` (
+	`CustomerId`	INTEGER NOT NULL,
+	`Date`	NUMERIC NOT NULL,
+	`Quantity`	REAL NOT NULL,
+	`ProductName`	TEXT NOT NULL,
+	`PaymentMode`	TEXT NOT NULL,
+	`Discount`	NUMERIC NOT NULL,
+	PRIMARY KEY(`CustomerId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+ 
+-- ----------------------------
+-- Records of sales
+-- ----------------------------
+INSERT INTO `sales` (CustomerId,Date,Quantity,ProductName,PaymentMode,Discount) VALUES (1,'15/10/2020',1000.0,'Fruits','Card','20%');
+</textarea>
