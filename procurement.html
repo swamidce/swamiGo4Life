@@ -9,13 +9,15 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `procurement`;
 CREATE TABLE IF NOT EXISTS `procurement` (
-	`CustomerId`	INTEGER NOT NULL,
-	`Date`	NUMERIC NOT NULL,
-	`Quantity`	REAL NOT NULL,
-	`ProductName`	TEXT NOT NULL,
-	`PaymentMode`	TEXT NOT NULL,
-	`Discount`	NUMERIC NOT NULL,
-	PRIMARY KEY(`CustomerId`)
+	`Identifying the needs of Goods and Services`	TEXT NOT NULL,
+	`Finding Suppliers`	TEXT NOT NULL,
+	`Negotiating with Suppliers`	TEXT NOT NULL,
+	`Agreeing terms with Suppliers`	TEXT NOT NULL,
+	`Arranging and Receiving products and services`	TEXT NOT NULL,
+	`Requesting Proposals` VARCHAR(200) NOT NULL,
+	`Performing Quality Assurance`	TEXT NOT NULL,
+	`Analysing Results and Margins`	TEXT NOT NULL,
+	PRIMARY KEY(`Requesting Proposals`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
  
 -- ----------------------------
